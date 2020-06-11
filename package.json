@@ -2,12 +2,14 @@
     "name": "react-hooks-login-registration",
     "version": "0.1.0",
     "private": true,
+    "author": "Sudhanshu Kr. Tiwari",
     "scripts": {
         "build": "webpack --mode production",
         "start": "webpack-dev-server --open"
     },
     "dependencies": {
         "history": "^4.10.1",
+        "node-sass": "^4.13.1",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
         "react-redux": "^7.2.0",
@@ -21,9 +23,13 @@
         "@babel/preset-env": "^7.4.3",
         "@babel/preset-react": "^7.0.0",
         "babel-loader": "^8.0.5",
+        "css-loader": "^3.5.3",
         "html-webpack-plugin": "^3.2.0",
         "path": "^0.12.7",
-        "webpack": "^4.29.6",
+        "sass": "^1.26.7",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.43.0",
         "webpack-cli": "^3.3.0",
         "webpack-dev-server": "^3.2.1"
     }
